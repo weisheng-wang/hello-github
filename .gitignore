@@ -1,0 +1,45 @@
+# ---- 系统与编辑器 ----
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+
+# ---- 依赖 ----
+node_modules/
+.pnpm-store/
+bower_components/
+
+# ---- 构建产物 ----
+dist/
+build/
+out/
+*.exe
+*.dll
+
+# ---- 日志与缓存 ----
+*.log
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.cache/
+
+# ---- 环境变量与密钥（绝对不要提交！）----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.*
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# ---- 临时文件 ----
+*.tmp
+*.bak
